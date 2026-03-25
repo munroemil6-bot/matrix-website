@@ -7,7 +7,7 @@ body {
 
 /* ===== NAVBAR ===== */
 .navbar {
-    background-color: #1f2933;
+    background: linear-gradient(to right, #1f2933, #2563eb);
     padding: 1em;
     text-align: center;
 
