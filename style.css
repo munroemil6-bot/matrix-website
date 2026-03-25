@@ -1,0 +1,115 @@
+/* ===== RESET & BASE ===== */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #f4f6f8, #e2e8f0);
+    font-family: Arial, sans-serif;
+    color: #1f2933;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: linear-gradient(to right, #1f2933, #2563eb);
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 1em;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ===== MAIN CONTENT ===== */
+.main-content {
+    flex: 1;
+    padding: 2em 1em;
+    text-align: center;
+    padding-top: 5em;
+    /* prevents navbar overlap */
+}
+
+/* ===== HOME SECTION ===== */
+#home h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#home p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* ===== DEPARTMENT SECTION ===== */
+.Department-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+/* Cards */
+.Department-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 1em;
+    padding: 1em;
+    width: 30%;
+    box-sizing: border-box;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+/* Hover effect */
+.Department-item:hover {
+    transform: scale(1.05);
+}
+
+.Department-item h3 {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.Department-item p {
+    margin-bottom: 0.5em;
+    color: #666;
+}
+
+.Department-item img {
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== FOOTER ===== */
+#footer {
+    background-color: #222;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+
+    position: relative;
+    width: 100%;
+}
