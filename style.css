@@ -17,7 +17,7 @@ body {
 .navbar {
     background: linear-gradient(to right, #1f2933, #2563eb);
     font-size: 1.2em;
-    padding: 1m;
+    padding: 1em;
     text-align: center;
     color: white;
     position: fixed;
