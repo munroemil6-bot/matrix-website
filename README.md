@@ -48,6 +48,7 @@ Internal Affairs focuses on maintaining organizational efficiency and employee c
 ## Author
 -The company was fisrt creatred by Myles Munroe who was asoftware engineer and the founder of matrix enterprises.
 -The website was founded and creted by Myles the CEO along with is partner Phill Smith.
+
 ---
 
 ##  Technologies Used
